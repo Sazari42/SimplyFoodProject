@@ -1,6 +1,10 @@
-# y
+# Simply Food
 
-> none
+> Is a project demonstrating my vue-js 2 practice and knowledge i've gained so far, it represents a gallery with animated cards, description of the cards is available upon clicking on them.
+
+version 0.2
+
+-Dynamic input filter added
 
 ## Build Setup
 
