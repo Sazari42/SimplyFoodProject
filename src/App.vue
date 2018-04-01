@@ -74,7 +74,6 @@
 
 <style>
   body{
-    padding: 0.1px;
     margin: 0;
   }
 

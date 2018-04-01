@@ -40,7 +40,7 @@
     min-height: 70.6vh;
     width: 100%;
     max-width: 1400px;
-    margin: 40px auto;
+    margin: 48px auto;
     box-sizing: border-box;
     text-align: center;
     padding-bottom: 70px;
