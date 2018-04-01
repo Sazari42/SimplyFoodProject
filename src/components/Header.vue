@@ -18,9 +18,6 @@
       }
     },
     methods: {
-      changeTitle: function(){
-        this.$emit('changeTitle', 'Vue Ninjas');
-      }
     }
   }
 </script>
