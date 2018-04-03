@@ -29,38 +29,38 @@
       return {
         images: [
           new ContentImage(
-            'name1',
-            'https://cdn.pixabay.com/photo/2017/05/24/11/40/desert-2340326_960_720.jpg',
+            'Green Salad',
+            'https://sun9-3.userapi.com/c824602/v824602754/105f09/yKLMslLSdC8.jpg',
             'description1',
             false
           ),
           new ContentImage(
-            'name2',
-            'https://cdn.pixabay.com/photo/2018/01/11/19/02/architecture-3076685_960_720.jpg',
+            'Butternut Squash Soup',
+            'https://sun9-1.userapi.com/c824602/v824602754/105f10/pSHb5ecHWCU.jpg',
             'description2',
             false
           ),
           new ContentImage(
-            'name3',
-            'https://cdn.pixabay.com/photo/2018/03/14/16/54/winter-3225687_960_720.jpg',
+            'Salmon Appetizer',
+            'https://sun9-3.userapi.com/c824602/v824602754/105f17/Nn1AngT1SJk.jpg',
             'description3',
             false
           ),
           new ContentImage(
-            'name4',
-            'https://cdn.pixabay.com/photo/2017/11/07/00/07/fantasy-2925250_960_720.jpg',
+            'Mediterranean Bagel',
+            'https://sun9-1.userapi.com/c824602/v824602754/105f1e/EJ1DXyYda6Y.jpg',
             'description4',
             false
           ),
           new ContentImage(
-            'name5',
-            'https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg',
+            'Pizza Margherita',
+            'https://sun9-3.userapi.com/c824602/v824602754/105f25/FYanfBDD-Tg.jpg',
             'description5',
             false
           ),
           new ContentImage(
-            'name6',
-            'https://cdn.pixabay.com/photo/2017/10/12/20/15/photoshop-2845779_960_720.jpg',
+            'Classy Burger',
+            'https://sun9-3.userapi.com/c824602/v824602754/105f2c/wknGrPDaXMo.jpg',
             'description6',
             false
           )

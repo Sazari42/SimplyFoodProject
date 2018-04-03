@@ -5,6 +5,7 @@
   </header>
 </template>
 <script>
+  import {bus} from '../main';
   export default {
     props: {
       title: {
@@ -22,10 +23,11 @@
 
     methods: {
       randColor: function () {
-        let r = Math.floor(Math.random() * 256);
-        let g = Math.floor(Math.random() * 256);
-        let b = Math.floor(Math.random() * 256);
+        let r = Math.floor(Math.random() * (256 - 100) + 100);
+        let g = Math.floor(Math.random() * (256 - 100) + 100);
+        let b = Math.floor(Math.random() * (256 - 100) + 100);
         this.bgc.backgroundColor = "rgb(" + r + ',' + g + ',' + b + ")";
+        bus.$emit('footerColor', "rgb(" + r + ',' + g + ',' + b + ")");
       }
     }
   }

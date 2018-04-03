@@ -1,9 +1,10 @@
 <template>
   <footer>
-    <p>Copyright 2017 {{ title }}</p>
+    <p v-bind:style="bgc">Copyright 2017 {{ title }}</p>
   </footer>
 </template>
 <script>
+  import {bus} from '../main';
   export default {
     props: {
       title: {
@@ -13,7 +14,15 @@
     },
     data(){
       return{
+        bgc: {
+          color: ''
+        }
       }
+    },
+    created() {
+      bus.$on('footerColor', (data) => {
+        this.bgc.color = data;
+      })
     }
   }
 </script>
@@ -32,5 +41,7 @@
   p{
     color: lightgreen;
     text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
   }
 </style>
